@@ -188,7 +188,7 @@ fun BottomModal(navController: NavController,settingsViewModel: SettingsViewMode
         ) {
             SettingsBox(
                 size = 8.dp,
-                title = "Ko-fi",
+                title = "Buymeacoffee",
                 icon = Icons.Rounded.Coffee,
                 isCentered = true,
                 actionType = ActionType.CUSTOM,
@@ -196,16 +196,16 @@ fun BottomModal(navController: NavController,settingsViewModel: SettingsViewMode
                 customAction = { uriHandler.openUri(ConnectionConst.SUPPORT_KOFI) },
                 settingsViewModel = settingsViewModel
             )
-            SettingsBox(
-                title = "Libera Pay",
-                size = 8.dp,
-                isCentered = true,
-                icon = Icons.Rounded.Payments,
-                radius = shapeManager(radius = settingsViewModel.settings.value.cornerRadius),
-                actionType = ActionType.CUSTOM,
-                customAction = { uriHandler.openUri(ConnectionConst.SUPPORT_LIBERAPAY) },
-                settingsViewModel = settingsViewModel
-            )
+//            SettingsBox(
+//                title = "Libera Pay",
+//                size = 8.dp,
+//                isCentered = true,
+//                icon = Icons.Rounded.Payments,
+//                radius = shapeManager(radius = settingsViewModel.settings.value.cornerRadius),
+//                actionType = ActionType.CUSTOM,
+//                customAction = { uriHandler.openUri(ConnectionConst.SUPPORT_LIBERAPAY) },
+//                settingsViewModel = settingsViewModel
+//            )
             SettingsBox(
                 title = stringResource(R.string.cryptocurrency),
                 size = 8.dp,

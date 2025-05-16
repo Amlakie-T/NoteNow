@@ -112,7 +112,7 @@ fun getTermsOfService(): String {
         append("${stringResource(R.string.terms_contact_body)} ${ConnectionConst.SUPPORT_MAIL}.\n\n")
 
         append("### ${stringResource(R.string.terms_privacy_title)}\n")
-        append("${stringResource(R.string.terms_privacy_body)} **https://github.com/Kin69/EasyNotes/wiki/Privacy-Policy**.\n\n")
+        append("${stringResource(R.string.terms_privacy_body)} **https://github.com/Amlakie-T/NoteNow/wiki/Privacy-Policy**.\n\n")
 
         append("*${stringResource(R.string.terms_effective_date)}: ${SupportConst.TERMS_EFFECTIVE_DATE}\n")
     }

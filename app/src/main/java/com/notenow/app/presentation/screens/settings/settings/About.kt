@@ -79,7 +79,7 @@ fun AboutScreen(navController: NavController, settingsViewModel: SettingsViewMod
                     icon = Icons.Rounded.Verified,
                     actionType = ActionType.LINK,
                     radius = shapeManager(isFirst = true, radius = settingsViewModel.settings.value.cornerRadius),
-                    linkClicked = { uriHandler.openUri("https://github.com/Kin69/EasyNotes/releases") }
+                    linkClicked = { uriHandler.openUri("https://github.com/Amlakie-T/NoteNow/releases") }
                 )
             }
             item {
@@ -89,7 +89,7 @@ fun AboutScreen(navController: NavController, settingsViewModel: SettingsViewMod
                     icon = Icons.Rounded.Download,
                     actionType = ActionType.LINK,
                     radius = shapeManager(isLast = true, radius = settingsViewModel.settings.value.cornerRadius),
-                    linkClicked = { uriHandler.openUri("https://github.com/Kin69/EasyNotes/releases") }
+                    linkClicked = { uriHandler.openUri("https://github.com/Amlakie-T/NoteNow") }
                 )
                 Spacer(modifier = Modifier.height(18.dp))
             }
@@ -111,7 +111,7 @@ fun AboutScreen(navController: NavController, settingsViewModel: SettingsViewMod
                     title = stringResource(id = R.string.discord),
                     icon = Icons.AutoMirrored.Rounded.ContactSupport,
                     actionType = ActionType.LINK,
-                    linkClicked = { uriHandler.openUri(ConnectionConst.SUPPORT_DISCORD) },
+                    linkClicked = { uriHandler.openUri(ConnectionConst.GITHUB_SOURCE_CODE) },
                     radius = shapeManager(radius = settingsViewModel.settings.value.cornerRadius),
                 )
             }

@@ -20,8 +20,8 @@ android {
 
         create("accrescent") {
             dimension = "default"
-            applicationId = "me.easyapps.app"
-            versionNameSuffix = "-easyapps"
+            applicationId = "com.amlakieapps.notenow"
+            versionNameSuffix = "-amlakieapps"
         }
     }
 
@@ -30,7 +30,7 @@ android {
         minSdk = 26
         targetSdk = 34
         versionCode = 11
-        versionName = "1.4"
+        versionName = "1.0.1"
         vectorDrawables {
             useSupportLibrary = true
         }

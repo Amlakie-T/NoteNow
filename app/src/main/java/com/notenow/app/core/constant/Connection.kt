@@ -9,26 +9,26 @@ object ConnectionConst {
     /**
      * Support mail.
      */
-    const val SUPPORT_MAIL = "Vexzure@proton.me"
+    const val SUPPORT_MAIL = "amlakie.dev@gmail.com"
 
     /**
      * Url of source code on Github.
      */
-    const val GITHUB_SOURCE_CODE = "https://github.com/Kin69/EasyNotes"
+    const val GITHUB_SOURCE_CODE = "https://github.com/Amlakie-T/NoteNow"
 
     /**
      * Feature request github.
      */
-    const val GITHUB_FEATURE_REQUEST = "https://github.com/Kin69/EasyNotes/issues/new"
+    const val GITHUB_FEATURE_REQUEST = "https://github.com/Amlakie-T/NoteNow/issues/new"
 
 
     /**
      * Support ko-fi.
      */
-    const val SUPPORT_KOFI = "https://ko-fi.com/kin69_"
+    const val SUPPORT_KOFI = "https://buymeacoffee.com/amlakie"
 
     /**
      * Support Liberapay.
      */
-    const val SUPPORT_LIBERAPAY = "https://liberapay.com/Kin69/"
+    const val SUPPORT_LIBERAPAY = "https://buymeacoffee.com/amlakie/"
 }

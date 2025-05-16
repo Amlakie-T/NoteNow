@@ -28,10 +28,11 @@
 - **Material 3 UI Components**
 
 ## 📸 Screenshots
-![Home Screen](screenshots/home.png)
-![Setting Screen](screenshots/settings.png)
-![Privacy Screen](screenshots/privacy.png)
-
+<p float="left">
+  <img src="screenshots/home.png" width="30%" />
+  <img src="screenshots/settings.png" width="30%" />
+  <img src="screenshots/privacy.png" width="30%" />
+</p>
 ## 📦 Setup & Installation
 
 1. Clone the repository:

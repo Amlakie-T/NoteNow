@@ -47,7 +47,7 @@ object SupportConst {
      */
     fun getSupportersMap(context: Context): Map<String, List<String>> {
         return mapOf(
-            context.getString(R.string.donators) to listOf("Amlakie-T", "Derei", "UnitTiff", "Carlos", "Ezpnix", "Benoit", "Chuck McKinnon"),
+            context.getString(R.string.donators) to listOf("Amlakie-T"),
             context.getString(R.string.contributors) to listOf("Shishkevichd", "Lenni-builder", "IllusionMan1212", "wadeack"),
             context.getString(R.string.translators) to listOf("searinminecraft", "Loco1911", "Maell1", "kuragehimekurara1", "Crazy-Unicooorn", "rickdtc", "Mikropsoft", "NicKoehler", "Koamedev", "Oersen", "DRIVER", "wzry2580", "ersen", "DragibusNoir", "TamarindoJuice")
         )

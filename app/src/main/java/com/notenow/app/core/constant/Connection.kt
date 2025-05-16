@@ -4,7 +4,7 @@ object ConnectionConst {
     /**
      * Support discord link.
      */
-    const val SUPPORT_DISCORD = "https://discord.gg/ZrP4G8z23H"
+    const val SUPPORT_DISCORD = "https://discord.gg/amlakie"
 
     /**
      * Support mail.

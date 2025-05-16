@@ -28,8 +28,9 @@
 - **Material 3 UI Components**
 
 ## 📸 Screenshots
-
-_Comming soon...........
+![Home Screen](screenshots/home.png)
+![Setting Screen](screenshots/settings.png)
+![Privacy Screen](screenshots/privacy.png)
 
 ## 📦 Setup & Installation
 
